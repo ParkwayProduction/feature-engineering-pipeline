@@ -1,16 +1,17 @@
-# feature-engineering-pipeline
-Advanced data preparation pipeline for aerospace telemetry, featuring automated year extraction, success-trend visualization, and 80-dimensional one-hot encoding.
+# [ MODULE : FEATURE_ENGINEERING_PIPELINE ]
 
+### [ MISSION_OVERVIEW ]
+Specialized data-wrangling framework focused on the transformation of categorical aerospace logs into high-fidelity numerical matrices. This pipeline is the critical preparation layer for predictive machine learning models.
 
-[ MODULE : FEATURE_ENGINEERING_PIPELINE ]
-[ MISSION_OVERVIEW ]
-Deployment of a specialized data-wrangling framework for SpaceX Falcon 9 telemetry. This module focuses on the transformation of categorical aerospace logs into a high-fidelity numerical matrix optimized for predictive classification.
+### [ TRANSFORMATION_PROTOCOLS ]
+* **Temporal Parsing:** Automated extraction of launch year data to visualize success-trend volatility over time.
+* **One-Hot Encoding:** Expansion of categorical nodes (Orbit, Site, Serial) into an 80-dimensional feature space for model ingest.
+* **Type-Casting:** High-precision data standardization by casting the engineered matrix to `float64`.
 
-[ TRANSFORMATION_PROTOCOLS ]
-Temporal Parsing: Extraction of mission timelines to identify success-rate volatility.
+### [ VIEWING_INSTRUCTIONS ]
+1. Copy the URL of `jupyter-labs-eda-dataviz.ipynb`.
+2. Paste the URL into [NBViewer.org](https://nbviewer.org).
 
-One-Hot Encoding: Expansion of categorical nodes into an 80-dimensional feature space.
-
-Standardization: Type-casting logs to float64 for high-precision algorithmic ingest.
-
-[ STATUS: OPERATIONAL ] [ ENCRYPTION: TLS_VERIFIED ].
+### [ SECURE_UPLINK ]
+Developed by the **Lead Analyst** at [Parkway Production](https://parkwayproduction.com).
+`[ VERIFIED_CREDENTIALS : IBM_CYBERSECURITY_ANALYST // GOOGLE_CYBER_PRO ]`
